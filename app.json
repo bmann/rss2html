@@ -1,0 +1,6 @@
+{
+  "name": "rss2html",
+  "description": "PHP script to convert RSS feeds into HTML, suitable for embedding in webpages.",
+  "repository": "https://github.com/bmann/rss2html",
+  "keywords": ["php", "rss", "html"]
+}
