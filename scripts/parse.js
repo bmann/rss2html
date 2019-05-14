@@ -21,7 +21,7 @@ function doParse() {
    var fixbugs = (advanced && $("fixbugs").checked ? "&fixbugs=true" : "");
 
    var path = "/?url=" + encodeURIComponent($("url").value) + detail + limit + showtitle + showicon + showempty + striphtml + forceutf8 + fixbugs;
-   var url = "//" + getenv('APP_URL'); + path;
+   var url = "//rss2html.herokuapp.com" + path;
    var code = "";
 
    var type = $("form").elements["codegen"].value;
