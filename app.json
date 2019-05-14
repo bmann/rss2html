@@ -2,5 +2,11 @@
   "name": "rss2html",
   "description": "PHP script to convert RSS feeds into HTML, suitable for embedding in webpages.",
   "repository": "https://github.com/bmann/rss2html",
-  "keywords": ["php", "rss", "html"]
+  "keywords": ["php", "rss", "html"],
+  "env": {
+    "APP_URL": {
+      "description": "The URI where your site is running, which should start as your app name. You can update this manually later if you add your own custom domain.",
+      "value": "YOUR_APP_NAME.herokuapp.com"
+    }
+  }
 }
