@@ -149,8 +149,6 @@ if(isset($_GET["url"])) {
     }
   }
 
-  echo "<div class=\"rss2html-note\" style=\"float: right;\"><a href=\"https://rss.bloople.net/\" style=\"color: #000000;\">Powered by rss2html</a></div>\n<div class=\"rss2html-note-clear\" style=\"clear: right; height: 0;\"></div>\n";
-
   if($type == "html") {
     echo "</body>\n</html>";
   }
@@ -333,7 +331,7 @@ else {
       </p>
 
       <hr>
-      <div class="footer">&copy; Brenton Fletcher. Comments? e-mail me: <a href="mailto:i@bloople.net">i@bloople.net</a>.</div>
+      <div class="footer">rss2html, deploy your own to Heroku <a href="https://github.com/bmann/rss2html">github.com/bmann/rss2html</a></div>
     </div>
   </body>
 </html>
